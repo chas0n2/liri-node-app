@@ -58,7 +58,7 @@ function concertSearch(artistName) {
         }
     })
        .catch(function(error) {
-           console.log("There were no events found for Artist");
+           console.log(error, "There were no events found for Artist");
        });
     }
 
