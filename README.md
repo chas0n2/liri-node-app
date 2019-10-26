@@ -5,12 +5,12 @@ My Liri app takes the users inputs to display media information. Specific search
 
 ## Directions:
 ###### In one line of Code-
-* 1. Type node
-* 2. Type file name "liri.js
-* 3. What to search for type the following: 
-    * 3a. Artists/Songs: spotify-this-song "name of artist or song"
-    * 3b. Movie information: movie-this "movie title or actor"
-    * 3c. Band Venues: concert-this "name of Artist"
+ 1. Type node
+ 2. Type file name "liri.js
+ 3. What to search for type the following: 
+    * Artists/Songs: spotify-this-song "name of artist or song"
+    * Movie information: movie-this "movie title or actor"
+    * Band Venues: concert-this "name of Artist"
 ### GIF examples of how it works!
 ![Concert Search](/images/concert-this.gif)
 ![Movie Search](/images/movie-this.gif)
