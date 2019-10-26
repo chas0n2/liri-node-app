@@ -45,7 +45,7 @@ function concertSearch(artistName) {
     .then(function(response) {
         respond = response.data
         if(respond.length === 0) {
-            console.log('There is currently no information')
+            console.log('There is currently no information.')
 
         }else {
             for (var i = 0; i < respond.length; i++) {
@@ -58,7 +58,7 @@ function concertSearch(artistName) {
         }
     })
        .catch(function(error) {
-           console.log(error, "There were no events found for Artist");
+           console.log(error, "There were no events found for this Artist.");
        });
     }
 
