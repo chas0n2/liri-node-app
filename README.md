@@ -17,12 +17,12 @@ My Liri app takes the users inputs to display media information. Specific search
 ![Song and Artist Search](/images/spotify-this-song.gif)
 
 ### Technology:
-* 1. Javascript
-* 2. Node.js
-* 3. npm
-* 4. Dotenv
-* 5. Spotify API
-* 6. OMDB API
-* 7. Axios
-* 8. Moment
+* Javascript
+* Node.js
+* npm
+* Dotenv
+* Spotify API
+* OMDB API
+* Axios
+* Moment
 
