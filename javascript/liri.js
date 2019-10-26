@@ -8,7 +8,7 @@ var fs = require('fs');
 var moment = require('moment');
 
 var input = process.argv[2];
-var topic = process.argv.slive(3).join(' ');
+var topic = process.argv.slice(3).join(' ');
 console.log('topic: ', topic);
 
 
@@ -16,7 +16,7 @@ console.log('topic: ', topic);
 function acceptInput(command) {
     if (command === "concert-this") {
         if (topic === "") {
-            concertSearch('Imagine Dragons')
+            concertSearch('Imagine Dragons', 'Coldplay')
         }
       concertSearch(topic);   
     }else if (command === "spotify-this-song") {
@@ -27,7 +27,7 @@ function acceptInput(command) {
         }
     }else if (command === 'movie-this') {
         if (topic === '') {
-            movieSearch('Inception')
+            movieSearch('Mr.Nobody')
             console.log('If you havent watched "Mr. Nobody," then you should: http://www.imdb.com/title/tt0485947/\nIts on Netflix!')
         }else
             movieSearch(topic);
