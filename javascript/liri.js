@@ -28,7 +28,7 @@ function acceptInput(command) {
     }else if (command === 'movie-this') {
         if (topic === '') {
             movieSearch('Inception')
-            console.log('Rent and watch this film, <https://www.imdb.com/title/tt1375666/> \nEven if you have seen it already')
+            console.log('If you havent watched "Mr. Nobody," then you should: http://www.imdb.com/title/tt0485947/\nIts on Netflix!')
         }else
             movieSearch(topic);
     }else {
